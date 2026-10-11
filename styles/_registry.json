@@ -1,0 +1,55 @@
+{
+  "styles": [
+    {
+      "id": "stats_cn",
+      "name": "统计学与经管量化中文顶刊风格（统计研究、数理统计与管理、运筹与管理等）",
+      "language": "zh",
+      "status": "trained",
+      "n_docs": 10,
+      "keywords": [
+        "估计", "回归", "检验", "Granger", "模拟", "预测", "协方差", "夏普", "收益率", "均方", "显著性水平", "样本外", "因子", "模型", "平稳性", "非平稳", "同阶单整", "协整", "消融", "自适应", "稳健性", "拓扑", "基准", "强化学习", "深度学习"
+      ],
+      "updated": "2026-10-11",
+      "profile": "styles/stats_cn/profile.md",
+      "auxiliary": [
+        "stats_top4_en"
+      ]
+    },
+    {
+      "id": "stats_top4_en",
+      "name": "统计学四大期刊（AoS / JASA / JRSSB 等）英文风格",
+      "language": "en",
+      "status": "trained",
+      "n_docs": 6,
+      "keywords": [
+        "estimator", "asymptotic", "theorem", "simulation", "hypothesis", "consistent", "covariance", "bootstrap", "high-dimensional", "we propose", "test statistic", "power", "null hypothesis"
+      ],
+      "updated": "2026-10-11",
+      "profile": "styles/stats_top4_en/profile.md"
+    },
+    {
+      "id": "nature_en",
+      "name": "Nature 系列英文论文",
+      "language": "en",
+      "status": "prior",
+      "n_docs": 0,
+      "keywords": [
+        "we show", "here we", "results", "cells", "samples", "fig.", "extended data", "demonstrate", "observed", "mechanism"
+      ],
+      "updated": "2026-10-10",
+      "profile": "styles/nature_en/profile.md"
+    },
+    {
+      "id": "stats_top8_en",
+      "name": "统计学八大期刊英文风格（待灌样本）",
+      "language": "en",
+      "status": "prior",
+      "n_docs": 0,
+      "keywords": [
+        "estimator", "asymptotic", "regression", "inference", "bootstrap", "covariance", "high-dimensional", "model selection"
+      ],
+      "updated": "2026-10-10",
+      "profile": "styles/stats_top8_en/profile.md"
+    }
+  ]
+}
